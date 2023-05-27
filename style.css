@@ -6,9 +6,37 @@ h1{
 }
 button{
     background-color: yellow;
-    color: #fff;
+    color: #000;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    
+    margin-left: 500px;
+
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 1s;
+}
+h2{
+    margin-left: 530px;
+    padding-top: 10px;
+}
+h2::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: #000;
+    right: 100px;
+    top: 190px;
+}
+h2::before{
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    background-color: #000;
+    left: 120px;
+    top: 195px;
 }
